@@ -94,9 +94,6 @@ final class ChatViewController: UIViewController {
             text3.topAnchor.constraint(equalTo: text2.bottomAnchor, constant: 30),
             text3.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
             
-//            view1.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 70),
-//            view1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
-//            view1.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
             view1.widthAnchor.constraint(equalToConstant: view.frame.size.width),
             view1.heightAnchor.constraint(equalToConstant: 120),
             view1.bottomAnchor.constraint(equalTo: view.bottomAnchor),
@@ -109,20 +106,6 @@ final class ChatViewController: UIViewController {
             button.topAnchor.constraint(equalTo: view1.topAnchor, constant: 30),
             button.leadingAnchor.constraint(equalTo: text4.trailingAnchor, constant: 20),
             button.trailingAnchor.constraint(equalTo: view1.trailingAnchor, constant: -10),
-
-//            text2.widthAnchor.constraint(equalToConstant: view.frame.size.width/1.1),
-            
-//            text3.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            text3.topAnchor.constraint(equalTo: text2.bottomAnchor, constant: 60),
-//            text3.widthAnchor.constraint(equalToConstant: view.frame.size.width/1.5),
-            
-//            password.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            password.topAnchor.constraint(equalTo: login.bottomAnchor, constant: 30),
-//            password.widthAnchor.constraint(equalToConstant: view.frame.size.width/1.5),
-//
-//            button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            button.topAnchor.constraint(equalTo: password.bottomAnchor, constant: 60),
-//            button.widthAnchor.constraint(equalToConstant: view.frame.size.width/1.1),
         ])
     }
 }

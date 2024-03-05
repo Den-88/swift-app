@@ -12,9 +12,12 @@
 		B77C5F132B8D739900243BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C5F122B8D739900243BA6 /* ViewController.swift */; };
 		B77C5F182B8D739C00243BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77C5F172B8D739C00243BA6 /* Assets.xcassets */; };
 		B77C5F1B2B8D739C00243BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77C5F192B8D739C00243BA6 /* LaunchScreen.storyboard */; };
-		B7F3E53A2B960F4100AAD269 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E5392B960F4100AAD269 /* TableViewController.swift */; };
-		B7F3E53C2B960F8100AAD269 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E53B2B960F8100AAD269 /* CustomTableViewCell.swift */; };
-		B7F3E5432B96674B00AAD269 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E5422B96674B00AAD269 /* ChatViewController.swift */; };
+		B7F3E5452B973E6F00AAD269 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E5442B973E6F00AAD269 /* TabBarController.swift */; };
+		B7F3E5472B97680D00AAD269 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E5462B97680D00AAD269 /* FriendsTableViewController.swift */; };
+		B7F3E5492B97683300AAD269 /* FriendsCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E5482B97683300AAD269 /* FriendsCustomTableViewCell.swift */; };
+		B7F3E54B2B97778200AAD269 /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E54A2B97778200AAD269 /* GroupsTableViewController.swift */; };
+		B7F3E54D2B97779800AAD269 /* GroupsCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E54C2B97779800AAD269 /* GroupsCustomTableViewCell.swift */; };
+		B7F3E54F2B977BAC00AAD269 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3E54E2B977BAC00AAD269 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +28,12 @@
 		B77C5F172B8D739C00243BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B77C5F1A2B8D739C00243BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B77C5F1C2B8D739C00243BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7F3E5392B960F4100AAD269 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		B7F3E53B2B960F8100AAD269 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		B7F3E5422B96674B00AAD269 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B7F3E5442B973E6F00AAD269 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B7F3E5462B97680D00AAD269 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		B7F3E5482B97683300AAD269 /* FriendsCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCustomTableViewCell.swift; sourceTree = "<group>"; };
+		B7F3E54A2B97778200AAD269 /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		B7F3E54C2B97779800AAD269 /* GroupsCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCustomTableViewCell.swift; sourceTree = "<group>"; };
+		B7F3E54E2B977BAC00AAD269 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +69,15 @@
 				B77C5F0E2B8D739900243BA6 /* AppDelegate.swift */,
 				B77C5F102B8D739900243BA6 /* SceneDelegate.swift */,
 				B77C5F122B8D739900243BA6 /* ViewController.swift */,
-				B7F3E5422B96674B00AAD269 /* ChatViewController.swift */,
 				B77C5F172B8D739C00243BA6 /* Assets.xcassets */,
 				B77C5F192B8D739C00243BA6 /* LaunchScreen.storyboard */,
 				B77C5F1C2B8D739C00243BA6 /* Info.plist */,
-				B7F3E5392B960F4100AAD269 /* TableViewController.swift */,
-				B7F3E53B2B960F8100AAD269 /* CustomTableViewCell.swift */,
+				B7F3E5442B973E6F00AAD269 /* TabBarController.swift */,
+				B7F3E5462B97680D00AAD269 /* FriendsTableViewController.swift */,
+				B7F3E5482B97683300AAD269 /* FriendsCustomTableViewCell.swift */,
+				B7F3E54A2B97778200AAD269 /* GroupsTableViewController.swift */,
+				B7F3E54C2B97779800AAD269 /* GroupsCustomTableViewCell.swift */,
+				B7F3E54E2B977BAC00AAD269 /* PhotoViewController.swift */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -143,12 +152,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F3E5432B96674B00AAD269 /* ChatViewController.swift in Sources */,
+				B7F3E54B2B97778200AAD269 /* GroupsTableViewController.swift in Sources */,
 				B77C5F132B8D739900243BA6 /* ViewController.swift in Sources */,
-				B7F3E53C2B960F8100AAD269 /* CustomTableViewCell.swift in Sources */,
+				B7F3E5472B97680D00AAD269 /* FriendsTableViewController.swift in Sources */,
+				B7F3E5492B97683300AAD269 /* FriendsCustomTableViewCell.swift in Sources */,
+				B7F3E54F2B977BAC00AAD269 /* PhotoViewController.swift in Sources */,
 				B77C5F0F2B8D739900243BA6 /* AppDelegate.swift in Sources */,
+				B7F3E5452B973E6F00AAD269 /* TabBarController.swift in Sources */,
+				B7F3E54D2B97779800AAD269 /* GroupsCustomTableViewCell.swift in Sources */,
 				B77C5F112B8D739900243BA6 /* SceneDelegate.swift in Sources */,
-				B7F3E53A2B960F4100AAD269 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

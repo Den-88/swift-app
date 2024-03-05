@@ -98,6 +98,6 @@ final class ViewController: UIViewController {
 
 private extension ViewController {
     @objc func tap() {
-        navigationController?.pushViewController(TableViewController(), animated: true)
+        navigationController?.pushViewController(TabBarController(), animated: true)
     }
 }

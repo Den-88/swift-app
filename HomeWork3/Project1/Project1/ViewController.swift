@@ -16,6 +16,7 @@ final class ViewController: UIViewController, WKNavigationDelegate {
         let url = URL(string: "https://oauth.vk.com/authorize?client_id=51870034&display=mobile&redirect_uri=https://oauth.vk.com/blank.html&response_type=token")!
         webView.load(URLRequest(url: url))
         setupConstraints()
+        navigationController?.navigationBar.isHidden = true
     }
 
     private lazy var webView: WKWebView = {
